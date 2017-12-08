@@ -24,7 +24,7 @@ class UrlManager(object):
     def build_page_url(self, pagenum):
         seedurl = 'http://maoyan.com/news?showTab=4'
         if pagenum==1:
-            return seedurl
+            return seedurl + '&offset=0'
         else:
             print 'pagenum: %s, %s' % (pagenum, type(pagenum))
             return seedurl + '&offset=%s' % ((pagenum-1)*10)
