@@ -51,13 +51,13 @@ $(function(){
 </ul> */}
 $(function(){
     var comments = [
-        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201711/01/20171101181056_YuSQj.jpeg", "nickname": "codemeow", "date": "11-22", "approvenum": "1", "content": "趁夏日热浪还未袭来,先跟着三毛的脚步穿行撒哈拉沙漠,逛一逛传统风情的露天市场，住一次阿拉伯风情的帐篷酒店"},
+        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201607/05/20160705160031_GFtiH.thumb.224_0.jpeg", "nickname": "codemeow", "date": "11-22", "approvenum": "1", "content": "趁夏日热浪还未袭来,先跟着三毛的脚步穿行撒哈拉沙漠,逛一逛传统风情的露天市场，住一次阿拉伯风情的帐篷酒店"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160220_dW2ut.jpeg", "nickname": "codemeow", "date": "1-6", "approvenum": "10", "content": "人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。人生的第一件大事是发现自己，因此人们需要不时孤独和沉思。"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160031_xB3nH.jpeg", "nickname": "cyanlime", "date": "3-7", "approvenum": "100", "content": "法国，这个“欧洲浪漫中心”，在7月，用一场绚烂的色彩迷住了我们眼普罗旺斯的薰衣草在风中摇曳生姿，呼吸间入眼处，都是那迷人的姿态,美得不可方物。趁夏日热浪还未袭来,先跟着三毛的脚步穿行撒哈拉沙漠,逛一逛传统风情的露天市场，住一次阿拉伯风情的帐篷酒店,"},
-        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118155410_nWPCV.jpeg", "nickname": "amy", "date": "6-18", "approvenum": "20", "content": "摩洛哥常年气候宜人，花木繁茂，素有'烈日下的清凉国土'和'北非花园'的美称。"},
+        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201709/11/20170911220918_eWQnf.thumb.224_0.jpeg", "nickname": "amy", "date": "6-18", "approvenum": "20", "content": "摩洛哥常年气候宜人，花木繁茂，素有'烈日下的清凉国土'和'北非花园'的美称。"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201509/23/20150923150229_SyjBL.jpeg", "nickname": "branda", "date": "12-2", "approvenum": "10", "content": "如果只能选一个国外旅游地，那唯美的斯里兰卡是不二之选。这个有着“微笑之国”之称的国家,以浓郁的宗教文化和殖民历史让人深深着迷。"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160154_PReHV.jpeg", "nickname": "brenda", "date": "11-30", "approvenum": "16", "content": "去锡兰，观殖民遗址的历史去狮子岩，看真实的空中宫殿去科伦坡，看现代与历史碰撞去佛牙寺，虔诚而纯净地感受牙舍利的神圣"},
-        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201711/01/20171101181056_YuSQj.jpeg", "nickname": "Jane", "date": "10-22", "approvenum": "13", "content": "泰国是个天生的旅游国度，有着强烈的民族风格特色。“佛教之邦”、“大象之国”的称誉和丰富的文化让它成为了东南亚国家中的热门旅游地。西班牙的海岛风光和文化底蕴也是迷人的风景线。去海岸边逛逛热带风光，或者去看看西班牙的教堂、公园惬意又自在，尽情感受西班牙的风情万种。"},
+        {"imgurl": "https://b-ssl.duitang.com/uploads/item/201602/17/20160217195016_XKhWA.thumb.224_0.jpeg", "nickname": "Jane", "date": "10-22", "approvenum": "13", "content": "泰国是个天生的旅游国度，有着强烈的民族风格特色。“佛教之邦”、“大象之国”的称誉和丰富的文化让它成为了东南亚国家中的热门旅游地。西班牙的海岛风光和文化底蕴也是迷人的风景线。去海岸边逛逛热带风光，或者去看看西班牙的教堂、公园惬意又自在，尽情感受西班牙的风情万种。"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118155854_acY5Q.jpeg", "nickname": "codewang", "date": "11-22", "approvenum": "10", "content": "广博的佛教文化，独有的民间风俗，迷人的热带风光，性价比高的购物，令人垂涎三尺的美食，……新年伊始，去泰国感受异国风情！"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160220_dW2ut.jpeg", "nickname": "codemeow", "date": "4-22", "approvenum": "21", "content": "作为“南太平洋上的一颗珍珠”，斐济有太多的惊喜值得流连忘返。这里是“全球十大蜜月旅游胜地之一”，也是全球五大潜水基地、软珊瑚之都，拥有世界上第二大不断延伸的珊瑚礁。"},
         {"imgurl": "https://b-ssl.duitang.com/uploads/item/201511/18/20151118155740_xehWw.jpeg", "nickname": "cyanlime", "date": "5-22", "approvenum": "24", "content": "帕劳以海底景观闻名，是世界七大海底奇观之首。热带岛国独有的风情和韵味在这里散发着无与伦比的魅力。"},
@@ -108,14 +108,14 @@ $(function(){
     var pictureUrls = [
         "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160154_PReHV.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118155410_nWPCV.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/23/20151123162409_sdi48.jpeg","https://b-ssl.duitang.com/uploads/item/201509/23/20150923150229_SyjBL.jpeg",
-        "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160154_PReHV.jpeg","https://b-ssl.duitang.com/uploads/item/201711/01/20171101181056_YuSQj.jpeg",
+        "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160154_PReHV.jpeg","https://b-ssl.duitang.com/uploads/item/201609/16/20160916145712_3WQRy.thumb.224_0.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/12/20151112115257_RwmaQ.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118155410_nWPCV.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/23/20151123162409_sdi48.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118160220_dW2ut.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/18/20151118155854_acY5Q.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118160100_GtRmY.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160220_dW2ut.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118155854_acY5Q.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160100_GtRmY.jpeg","https://b-ssl.duitang.com/uploads/item/201511/23/20151123162409_sdi48.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160004_3FmNH.jpeg","https://b-ssl.duitang.com/uploads/item/201509/23/20150923150229_SyjBL.jpeg",
-        "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160907_LPGCF.jpeg","https://b-ssl.duitang.com/uploads/item/201711/01/20171101181056_YuSQj.jpeg",
+        "https://b-ssl.duitang.com/uploads/item/201511/18/20151118160907_LPGCF.jpeg","https://b-ssl.duitang.com/uploads/item/201607/05/20160705160031_GFtiH.thumb.224_0.jpeg",
         "https://b-ssl.duitang.com/uploads/item/201511/12/20151112115257_RwmaQ.jpeg","https://b-ssl.duitang.com/uploads/item/201511/18/20151118155854_acY5Q.jpeg"
     ];
     $.each(pictureUrls, function(index, value){
